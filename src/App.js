@@ -1,8 +1,8 @@
 import Contador from './contador';
+import './App.css';
 import Products from '../src/products';
 import ItemListContainer from './Components/ItemListContainer/ItemListContainer';
 import NavBar from './Components/NavBar/NavBar';
-import './App.css';
 
 function App() {
   return (

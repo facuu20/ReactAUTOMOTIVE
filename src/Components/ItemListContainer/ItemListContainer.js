@@ -1,9 +1,23 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import { pedirProductos } from '../products';
 
-const ItemListContainer = ({greeting}) => {
+const ItemListContainer = () => {
+  const [productos, setProductos] = useState([]);
+  
+  useEffect(() => {
+  
+  pedirProductos()
+    .then((res) => {
+      setProductos(res);
+
+  })
+  }, [])
+
+
+
   return (
     <div>
-      <h2>{greeting}</h2>
+
     </div>
   )
 }
