@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .cards {
     background-color: rgb(154, 154, 155);
     display: grid;
@@ -24,3 +25,31 @@ border-radius: 70px;
     height: 70px;
     align-items: center;
 }
+=======
+.cards {
+    background-color: rgb(154, 154, 155);
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 30px;
+    border-radius: 3.75rem;
+    width: 25rem;
+    height: 25.125rem;
+    
+}
+img{
+width: 25rem;
+height: 15rem;
+border-radius: 70px;
+
+}
+.itembutton{
+    width: 25rem;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 10px 10px 100px 100px;
+    background-color: blue;
+    height: 70px;
+    align-items: center;
+}
+>>>>>>> ff8d35986d69c839e8cf4a146d3c2d110d05507c

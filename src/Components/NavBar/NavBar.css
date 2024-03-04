@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .me-auto{
     display: flex;
@@ -7,4 +8,15 @@ width: 100%;
 .nav-link{
     display: flex;
     align-items: end;
+=======
+
+.me-auto{
+    display: flex;
+    background-color: rgb(2, 12, 12);
+width: 100%;
+}
+.nav-link{
+    display: flex;
+    align-items: end;
+>>>>>>> ff8d35986d69c839e8cf4a146d3c2d110d05507c
 }
