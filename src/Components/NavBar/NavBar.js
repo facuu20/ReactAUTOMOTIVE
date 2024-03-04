@@ -8,12 +8,13 @@ function NavBar() {
     <>
       <Navbar bg="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="#home">MotorSport HOUSE</Navbar.Brand>
+          <Navbar.Brand href="/">MotorSport HOUSE</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Indumentaria</Nav.Link>
-            <Nav.Link href="#features">Vehiculos</Nav.Link>
-            <Nav.Link className='carrito' href="#pricing"><CarWidget/></Nav.Link>
+            <Nav.Link href="/productos">Inicio</Nav.Link>
+            <Nav.Link href="/productos/auto">AUTOS</Nav.Link>
+            <Nav.Link href="/productos/camioneta">CAMIONETAS</Nav.Link>
+            <Nav.Link href="/productos/moto">MOTOS</Nav.Link>
+            <Nav.Link href="/carrito"><CarWidget/></Nav.Link>
           </Nav>
         </Container>
       </Navbar>

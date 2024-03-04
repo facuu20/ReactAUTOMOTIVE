@@ -1,23 +1,19 @@
-import { useState } from "react"
+import React from "react"
 
-
-
-const Contador = () => {
-    const [contador, setContador]= useState(0) 
-    const sumar=() =>{
-        setContador(contador + 1);
-    }
-    const restar=() =>{
-        setContador(contador - 1);
-    }
+const Contador = ({contador, sumar, restar, agregarCarrito})=>{
+  
   return (
     <div>
+      <div>
         <h4>Articulos agregados {contador}</h4>
         <button onClick={sumar}>+</button>
         <button onClick={restar}>-</button>
-      
+
+
+      </div>
+      <button onClick={agregarCarrito}>Agregar al carrito</button>
     </div>
   )
 }
-
+  
 export default Contador
